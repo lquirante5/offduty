@@ -1,0 +1,72 @@
+/* My Custom CSS */
+body{
+    font-family: 'Playfair Display', serif;   
+    font-style: normal;
+    font-weight: 400; 
+    
+  
+}
+.container-fluid{
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+
+}
+h1{
+    font-size: 90px;
+    
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+}
+.d-flex{
+font-family:'Avenir', sans-serif;
+     border: 1px;
+    font-size: 20px;
+    border-style:solid;
+    border-color: black;
+    text-align: center;
+}
+
+h2{
+    letter-spacing: 8px;
+    text-align: center;
+}
+.d-md-inline-flex{
+    position:relative;
+    bottom: -30px;
+    left: 40%;
+    border: 1px;
+  background-color: white;
+  border-style:solid;
+  border-color: black;  
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.d-md-inline-flex{
+    font-family: 'Playfair Display', serif;   
+    font-style: normal;
+    font-weight: 10px; 
+    font-size: 30px;
+    text-align: match-parent;
+letter-spacing: 8px;
+}
+
+
+.footer{
+    position: relative;
+    top: -90px;
+     border-top: 1px solid black;
+    
+}
+
+p{
+    text-align: center;
+}
